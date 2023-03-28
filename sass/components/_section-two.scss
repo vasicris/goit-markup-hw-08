@@ -1,0 +1,31 @@
+.grid-items {
+    &__qualities {
+        width: 270px;
+    }
+    &__qualities-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        padding-bottom: 4px;
+    }
+    &__qualities-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        padding-bottom: 20px;
+    }
+}
+
+.grid-items__qualities a {
+    background-color: #F5F4FA;
+    align-items: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,68 @@
+.section-four {
+    background: #F5F4FA;
+    padding-bottom: 94px;
+}
+
+.section-four__title {
+    padding-bottom: 50px;
+    color: #212121;   
+}
+
+.grid__card {
+    background: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team__image {
+        padding-bottom: 30px;
+}
+
+.our-team__details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.our-team__details {
+    &-title {
+        padding-bottom: 10px;
+    }
+    &-ocupation {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+}
+
+
+.our-team__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 206px;
+    margin: 16px 32px 30px;
+}
+
+
+.our-team__social-media {
+    &-item {
+        height: 44px;
+        width: 44px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-item svg:hover {
+            fill: white;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &-item:hover {
+            background-color: #2196F3;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

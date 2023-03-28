@@ -1,0 +1,32 @@
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 94px;
+}
+
+.section-three__title {
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+}
+
+.grid {
+    &__items-what-we-do {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    &__items-what-we-do-title {
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        background: rgba(47, 48, 58, 0.8);
+        color: white;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+    }
+}
