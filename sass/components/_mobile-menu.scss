@@ -66,13 +66,15 @@
   .menu-container.is-open {
     transform: translateX(0);
   }
-  
-  .menu-container .menu-toggle {
+
+//   .menu-container
+
+.menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
-    color: #fff;
-  }
+    top: 12px;
+    right: 62px;
+    // color: #fff;
+}
   
   .mobile-menu {
     padding: 0;
