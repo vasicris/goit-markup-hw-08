@@ -10,8 +10,20 @@ li {
 }
 
 .container {
-    width: 1200px;
+    width: 480px;
     margin: 0px auto;
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
 }
 
 .section {
@@ -34,4 +46,6 @@ li {
 .grid {
     display: flex;
     gap: 30px
+    flex-wrap: wrap;
+    justify-content: center;
 }

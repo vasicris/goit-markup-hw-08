@@ -1,6 +1,6 @@
 .header {
     .container {
-        width: 1200px;
+        // width: 1200px;
         margin: 0px auto;
     }
 }
@@ -79,6 +79,12 @@
         left: 0px;
     }
 }
+
+// @media screen and (min-width:767px) {
+//     .header-right {
+//         flex-direction: column;
+//     }
+// }
 
 .header-right {
     color: #757575;

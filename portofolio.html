@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Home Studio Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,13 +16,32 @@
         <div class="container">
             <div class="header__navigation">
                 <a class="header__WebStudio-info" href="Web">Web<span id="studio1">Studio</span></a>
-                <nav class="header__navLink">
+                <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+                <nav class="header__navLink menu">
                     <ul class="header-left">
                         <li><a class="header-left__pageLink" href="./index.html">Studio</a></li>
                         <li><a class="header-left__pageLink-a" href="./portofolio.html">Portfolio</a></li>
                         <li><a class="header-left__pageLink" href="Contacts">Contacts</a></li>
                     </ul>
-                    <ul class="header-right">
+                    <ul class="header-right menu">
                         <li class="header-right__envelope">
                             <a class="header-right__contactLink" href="mailto:info@devstudio.com">
                                 <svg class="header-right__icons" width="16" height="12">
@@ -39,7 +59,9 @@
                             </a>
                         </li>
                     </ul>
-                </nav>   
+                    
+                </nav> 
+                  
             </div>
          </div>
      </header>
@@ -149,6 +171,76 @@
             </div>
         </section>
     </main>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+          <svg
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <nav class="header__navLink">
+            <ul class="header-left">
+                <li><a class="header-left__pageLink-a" href="./index.html">Studio</a></li>
+                <li><a class="header-left__pageLink" href="./portofolio.html">Portfolio</a></li>
+                <li><a class="header-left__pageLink" href="Contacts">Contacts</a></li>
+            </ul>
+            <ul class="header-right">
+                <li class="header-right__envelope">
+                    <a class="header-right__contactLink" href="mailto:info@devstudio.com">
+                        <svg class="header-right__icons" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="header-right__phone">
+                    <a class="header-right__contactLink" href="tel:+1 212-772-4150">
+                        <svg class="header-right__icons" width="10" height="16">
+                            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                        </svg> 
+                        +1 212-772-4150
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+  
+        <nav class="header__navLink menu">
+            <ul class="header-left">
+                <li><a class="header-left__pageLink-a" href="./index.html">Studio</a></li>
+                <li><a class="header-left__pageLink" href="./portofolio.html">Portfolio</a></li>
+                <li><a class="header-left__pageLink" href="Contacts">Contacts</a></li>
+            </ul>
+            <ul class="header-right menu">
+                <li class="header-right__envelope">
+                    <a class="header-right__contactLink" href="mailto:info@devstudio.com">
+                        <svg class="header-right__icons" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="header-right__phone">
+                    <a class="header-right__contactLink" href="tel:+1 212-772-4150">
+                        <svg class="header-right__icons" width="10" height="16">
+                            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                        </svg> 
+                        +1 212-772-4150
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+      </div>
     <!--FooterSection-->
     <footer class="footer">
         <div class="container">
