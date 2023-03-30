@@ -23,7 +23,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-basis: calc((100% - 2 * 30px) / 3);
     }
     &__customers svg:hover {
         fill: #2196f3;
@@ -37,12 +36,12 @@
 
 @media screen and (min-width: 768px) {
     .grid-customers {
-        flex-basis: calc((100% - 2 * 30px) / 3;
+        flex-basis: calc((100% - 2 * 30px) / 3);
     }
 }
 
 @media screen and (min-width: 1200px) {
     .grid-customers {
-        flex-basis: calc((100% - 2 * 30px) / 3);
+        flex-basis: calc((100% - 5 * 30px) / 6);
     }
 }
