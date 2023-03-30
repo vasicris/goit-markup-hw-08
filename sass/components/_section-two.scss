@@ -31,6 +31,13 @@
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 767px) {
+    .grid-items {
+        flex-basis: calc(100% - 30px);
+        max-width: 450px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .grid-items {
         flex-basis: calc((100% - 30px) / 2);
