@@ -50,6 +50,19 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .grid-projects {
+        margin: 0px;
+        // justify-content: center;
+        display: flex;
+        // flex-direction: column;
+        align-items: flex-start;
+        // flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .grid-projects {
         flex-basis: calc((100% - 4 * 30px) / 5);
@@ -75,11 +88,54 @@
 
 .grid-portofolio > li {
     border: 1px solid #EEEEEE;
+    // width: 354px;
+}
+
+@media screen and (max-width: 480px) {
+    .grid-portofolio {
+        flex-basis: calc((100% - 30px) / 2);
+        margin: 0px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .grid-portofolio {
+        // flex-basis: calc((100% - 4 * 30px) / 5);
+        margin: 0px;
+        justify-content: flex-start;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .grid-portofolio > li {
+        max-width: 354px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .grid-portofolio {
+        flex-basis: calc((100% - 30px) / 2);
+        margin: 0px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .grid-portofolio {
+        flex-basis: calc((100% - 3 * 30px) / 3);
+        margin: 0px;
+        justify-content: center;
+    }
 }
 
 .grid-portofolio {
     &__card {
-        flex-basis: 370px;
+        // flex-basis: 370px;
         height: 404px;
     }
     &__card:hover {
@@ -95,7 +151,7 @@
     &__card-upper {
         position: relative;
         overflow: hidden;
-        width: 370px;
+        // width: 370px;
         height: 294px;
         margin-left: auto;
         margin-right: auto;
@@ -120,7 +176,7 @@
         padding: 63px 24px 91px 24px;
     }
     &__image {
-        width: 370px; 
+        // width: 370px; 
         height: 294px;
     }
     &__card-lower {

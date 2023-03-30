@@ -19,6 +19,20 @@ li {
 
 }
 
+@media screen and (min-width:480px) {
+    .container {
+        width: 480px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        // min-width: 481px;
+        // max-width: 768px;
+        width: 768px;
+    }
+}
+
 @media screen and (min-width:768px) {
     .container {
         width: 768px;
