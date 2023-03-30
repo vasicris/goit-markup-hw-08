@@ -121,7 +121,13 @@
     .grid-portofolio {
         flex-basis: calc((100% - 30px) / 2);
         margin: 0px;
-        justify-content: center;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .grid-portofolio > li {
+        max-width: 354px;
     }
 }
 
