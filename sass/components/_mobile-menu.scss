@@ -10,6 +10,8 @@
       display: none;
     }
   }
+
+
   
   .menu .link {
     padding: 10px;
@@ -88,3 +90,16 @@
     color: #fff;
     text-decoration: none;
   }
+
+.mobile-menu {
+    &__header-left {
+        flex-direction: column;
+    }
+    &__header-right {
+      flex-direction: column-reverse;
+    }
+}
+
+.mobile-menu-header__navLink {
+  flex-direction: column;
+}

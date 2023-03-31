@@ -80,11 +80,11 @@
     }
 }
 
-// @media screen and (min-width:767px) {
-//     .header-right {
-//         flex-direction: column;
-//     }
-// }
+@media screen and (max-width:767px) {
+    .header {
+        padding: 16px 0px;
+    }
+}
 
 .header-right {
     color: #757575;
