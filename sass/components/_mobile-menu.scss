@@ -57,10 +57,11 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
+    // padding: 32px;
+    padding: 16px 0px 0px 40px;;
     background-color: #3f51b5;
     z-index: 999;
-  
+    background: white;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
@@ -94,12 +95,92 @@
 .mobile-menu {
     &__header-left {
         flex-direction: column;
+        padding-bottom: 32px;
+        align-items: baseline;
+        margin-bottom: 242px;
+    }
+    &__header-left > li {
+      padding-bottom: 32px;
     }
     &__header-right {
       flex-direction: column-reverse;
+      align-items: baseline;
     }
+    &__header-right > li {
+      padding-bottom: 32px;
+    }
+    &__social {
+      display: flex;
+      margin-bottom: 48px;
+    }
+    &__social-links {
+      text-decoration: none;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.02em;
+      color: #2196F3;
+      padding-right: 10px;
+    }
+    &__social-links::after {
+      content: "";
+      border-right: 1px solid rgba(33, 33, 33, 0.2);
+      padding-right: 10px;
+    }
+}
+
+.mobile-menu-header-left__pageLink {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+  }
+
+.mobile-menu-header-left__pageLink-a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
 }
 
 .mobile-menu-header__navLink {
   flex-direction: column;
+}
+
+.mobile-menu-header-right__contactLink {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-header-right__icons {
+    display: none;
+  }
+}
+
+.mobile-menu-header-right__contactMail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
 }
