@@ -15,16 +15,11 @@
     }
 }
 
-
-
 .footer-left {
         display: flex;
         flex-direction: column;
         align-items: center;
 }
-
-
-
 
 .footer-left {
     &__WebStudio-info {
@@ -220,19 +215,12 @@
 @media screen and (max-width: 768px) { 
     .footer-form__position {
         flex-direction: column;
-        // align-items: baseline;
         width: 380px;
     }
-}
-
-@media screen and (max-width: 768px) { 
     .footer-form__button {
         // margin-left: 0px;
         margin: 20px 0px 0px 90px;
     }
-}
-
-@media screen and (max-width: 768px) { 
     .footer-form__label {
         display: flex;
         justify-content: center;
@@ -244,12 +232,8 @@
 
 @media (min-width: 768px) and (max-width:1200px) {
     .footer__navigation {
-        // flex-basis: calc((100% - 30px) / 2);
         flex-wrap: wrap;
     }
-}
-
-@media (min-width: 768px) and (max-width:1200px) {
     .footer-left__adress {
         display: flex;
         justify-content: center;
@@ -280,6 +264,3 @@
     }
 
 }
-
-
-

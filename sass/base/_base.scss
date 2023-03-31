@@ -11,10 +11,6 @@ li {
 
 .container {
     width: 480px;
-    // min-width: 400px;
-    // max-width: 1170px;
-    // padding-left: 15px;
-    // padding-right: 15px;
     margin: 0px auto;
 
 }
@@ -27,8 +23,6 @@ li {
 
 @media (min-width: 481px) and (max-width: 768px) {
     .container {
-        // min-width: 481px;
-        // max-width: 768px;
         width: 480px;
     }
 }
