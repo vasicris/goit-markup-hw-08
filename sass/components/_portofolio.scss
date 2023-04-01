@@ -96,6 +96,12 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    .portofolio {
+        padding: 0px 0px 60px 0px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
     .grid-portofolio {
         margin: 0px;
         justify-content: flex-start;
