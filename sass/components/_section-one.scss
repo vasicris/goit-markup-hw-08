@@ -1,5 +1,5 @@
 .section-one {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../../images/background-img-M.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/background-img-M.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -7,13 +7,13 @@
 
 @media screen and (min-width: 768px) {
     .section-one {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../../images/background-img-T.png);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/background-img-T.png);
     }
 }
 
 @media screen and (min-width: 1200px) {
     .section-one {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../../images/background-img-D.png);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/background-img-D.png);
     }
 }
 
@@ -21,7 +21,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min resolution: 2dppx) {
     .section-one {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../../images/background-img-M-@2x.png);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/background-img-M-@2x.png);
     }
 }
 
@@ -29,7 +29,7 @@
     screen and (min-width: 768px) and (min-resolution: 192dpi),
     screen and (min-width: 768px) and (min resolution: 2dppx) {
     .section-one {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../../images/background-img-T-@2x.png);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/background-img-T-@2x.png);
     }
 }
 
@@ -37,7 +37,7 @@
     screen and (min-width: 1200px) and (min-resolution: 192dpi),
     screen and (min-width: 1200px) and (min resolution: 2dppx) {
     .section-one {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../../images/background-img-D-@2x.png);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/background-img-D-@2x.png);
     }
 }
 
