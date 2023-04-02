@@ -14,14 +14,20 @@
     border-radius: 0px 0px 4px 4px;
 }
 
+.our-team {
+    display: flex;
+    flex-direction: column;
+}
+
 .our-team__image {
-        padding-bottom: 30px;
+    padding-bottom: 30px;
+        
 }
 
 .our-team__details {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .our-team__details {
