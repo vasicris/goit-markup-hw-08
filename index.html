@@ -215,23 +215,20 @@
                     <li class="grid__card">
                         <div class="our-team">
                             <picture>
-                                <source 
-                                    media="screen and (max-width:767px)"
-                                    srcset="images/Christopher-Walker-M.png 1x, images/Christopher-Walker-M-@2x.png 2x"
-                                />
-                                <source 
-                                    media="screen and (min-width:768px)"
-                                    srcset="images/Christopher-Walker-T.png 1x, images/Christopher-Walker-T-@2x.png 2x"
-                                />
-                                <source 
-                                    media="screen and (min-width:1200px)"
-                                    srcset="images/Christopher-Walker-D.png 1x, images/Christopher-Walker-D-@2x.png 2x"
-                                />
-                                <img
-                                    width="270"
+                                <source
+                                    media="screen and (max-width: 767px)"
+                                    srcset="images/Christopher-Walker-M.png 1x, images/Christopher-Walker-M-@2x.png 2x"/>
+                                <source
+                                    media="screen and (min-width: 768px) and (max-width: 1199px)"
+                                    srcset="images/Christopher-Walker-T.png 1x, images/Christopher-Walker-T-@2x.png 2x"/>
+                                <source
+                                    media="screen and (min-width: 1200px)"
+                                    srcset="images/Christopher-Walker-D.png 1x, images/Christopher-Walker-D-@2x.png 2x"/>  
+                                <img class="our-team__image"
                                     src="./images/Christopher-Walker-M.png" 
                                     alt="Christopher Walker"
-                                />
+                                    width="270px"
+                                    height="260"/>                                
                             </picture>
                             <div class="our-team__details">
                                 <h3 class="our-team__details-title">Christopher Walker</h3>
@@ -270,7 +267,11 @@
                         </div>
                     </li>
                     <li class="grid__card">
-                            <img class="our-team__image" src="./images/Kylie Evans-M.png" alt="Kylie Evans" width="270" height="260">
+                            <img class="our-team__image" 
+                            src="./images/Kylie Evans-M.png" 
+                            alt="Kylie Evans" 
+                            width="270" 
+                            height="260">
                             <div class="our-team__details">
                                 <h3 class="our-team__details-title">Kylie Evans</h3>
                                 <p class="our-team__details-ocupation">Frontend Developer</p>
